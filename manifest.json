@@ -1,0 +1,25 @@
+{
+    "manifest_version":         2,
+    "content_scripts":          [ {
+        "js":       ["jquery.min.js", "iframeInjector.js" ],
+        "matches":  ["*://*.facebook.com/*", "*://*.twitter.com/*"
+        ]
+    } ],
+    "description":              "Quell that social media addiction! ",
+    "name":                     "Quell",
+    "page_action": {
+        "default_icon": {
+            "16": "images/quell16.png",
+            "32": "images/quell32.png",
+            "48": "images/quell48.png",
+            "128": "images/quell128.png"
+        }
+      },
+      "icons": {
+          "16": "images/quell16.png",
+          "32": "images/quell32.png",
+          "48": "images/quell48.png",
+          "128": "images/quell128.png"
+      },
+    "version":                  "1.0"
+}
